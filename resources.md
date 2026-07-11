@@ -1,13 +1,9 @@
 # Resources
 
-> 只放链接，不复制内容。
+> https://github.com/IILab-Resource/ml4health/
 
 ---
 
-## 核心教程
-
-- **ml4health 仓库**: 教程原始代码与讲义
-- **数据集下载**: 提取码 JQ85
 
 ---
 
