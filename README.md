@@ -21,7 +21,7 @@ Summer 2026
 
 ░░░░░░░░░░░░░░░░░░░░░░
 
-0 / 22 Modules
+1 / 22 Modules
 
 预计完成时间：2026.7 —— 2026.8
 ```
@@ -32,7 +32,7 @@ Summer 2026
 
 | # | 模块 | 英文名 | 阶段 | 状态 |
 |---|------|--------|------|------|
-| 01 | [探索性数据分析](modules/01_EDA/README.md) | Exploratory Data Analysis | 基础入门 | ⬜ |
+| 01 | [探索性数据分析](modules/01_EDA/README.md) | Exploratory Data Analysis | 基础入门 | ✅ |
 | 02 | [统计检验](modules/02_Statistical_Tests/README.md) | Statistical Tests | 基础入门 | ⬜ |
 | 03 | [数据预处理](modules/03_Preprocessing/README.md) | Data Preprocessing | 特征工程 | ⬜ |
 | 04 | [特征构造](modules/04_Feature_Construction/README.md) | Feature Construction | 特征工程 | ⬜ |
