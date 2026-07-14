@@ -10,12 +10,12 @@
 
 **Medical Machine Learning · Summer 2026**
 
-- 已完成：0 / 22 模块
+- 已完成：1 / 22 模块
 - 预计周期：2026.7 — 2026.8
 
 | # | 模块 | 英文名 | 阶段 | 状态 |
 |---|------|--------|------|------|
-| 01 | [探索性数据分析](modules/01_EDA/) | EDA | 基础入门 | ⬜ |
+| 01 | [探索性数据分析](modules/01_EDA/) | EDA | 基础入门 | ✅ |
 | 02 | [统计检验](modules/02_Statistical_Tests/) | Statistical Tests | 基础入门 | ⬜ |
 | 03 | [预处理与缺失值插补](modules/03_Preprocessing/) | Preprocessing | 特征工程 | ⬜ |
 | 04 | [特征工程](modules/04_Feature_Construction/) | Feature Construction | 特征工程 | ⬜ |
@@ -46,11 +46,8 @@
 medical-ml-learning/
 │
 ├── README.md              # 本文件：项目总览与进度
-├── LEARNING_LOG.md        # 学习日志（每日记录 + 每周总结）
 ├── resources.md           # 参考资料（教程、论文、工具链接）
 ├── .gitignore
-├── assets/
-│   └── progress.svg       # 进度可视化
 │
 └── modules/
     ├── 01_EDA/
@@ -69,32 +66,18 @@ medical-ml-learning/
 | 文件 | 内容 |
 |------|------|
 | `README.md` | 模块概述、学习目标、知识框架 |
-| `notes.md` | 个人笔记（写自己的理解，不抄教程） |
-| `practice.ipynb` | 实践代码（自己重新敲，不是复制） |
-| `images/` | 运行结果截图（分布图、热力图等） |
+| `notes.md` | 个人笔记（写理解） |
+| `practice.ipynb` | 实践代码（自己重新敲） |
+| `images/` | 运行结果截图 |
 
 ---
 
 ## 笔记规则
 
-- 每篇笔记对应一个**知识点**，不是日记
-- 写自己的理解，不抄教程
+- 每篇笔记对应一个**知识点**
+- 写自己的理解
 - 包含：核心概念 → 代码要点 → 踩坑记录 → 可复用片段
 - 学完一个知识点就整理一篇，不赶频率
-
----
-
-## Commit Message 速查
-
-| 做了什么 | Commit Message |
-|----------|---------------|
-| 新建仓库 | `Initial commit` |
-| 新增笔记 | `Add <topic> notes` |
-| 更新笔记 | `Update <topic> notes` |
-| 新增代码 | `Add <topic> script` |
-| 上传图片 | `Add figures` |
-| 修复错误 | `Fix <description>` |
-| 更新文档 | `Update documentation` |
 
 ---
 
