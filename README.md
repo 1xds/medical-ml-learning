@@ -12,14 +12,21 @@
 medical-ml-learning/
 ├── README.md        # 本文件
 ├── resources.md     # 参考资料
-└── modules/
-    ├── 01_EDA/
-    │   └── notes.md    →  笔记 + 代码
-    ├── 02_Statistical_Tests/
-    │   └── notes.md
+├── modules/
+│   ├── 01_EDA/
+│   │   └── notes.md    →  笔记 + 代码
+│   ├── 02_Statistical_Tests/
+│   │   └── notes.md
+│   ├── ...
+│   └── 22_CGM_Glucose_Regression/
+│       └── notes.md
+└── Task/             # 综合实践任务
+    ├── Task 01/      # Node 1: EDA + 统计分析
+    │   ├── heart_attack_analysis.ipynb
+    │   └── heart_attack_china.csv
+    ├── Task 02/      # Node 2: 特征工程流水线
     ├── ...
-    └── 22_CGM_Glucose_Regression/
-        └── notes.md
+    └── Task 07/      # Node 7: ML Pipeline 可视化系统
 ```
 
 ## 学习进度
@@ -48,6 +55,22 @@ medical-ml-learning/
 | 20 | [影像组学 ML 流水线](modules/20_Radiomics_ML_Pipeline/notes.md) | ⬜ |
 | 21 | [TCGA 多分类](modules/21_TCGA_Multiclass/notes.md) | ⬜ |
 | 22 | [CGM 血糖回归](modules/22_CGM_Glucose_Regression/notes.md) | ⬜ |
+
+---
+
+## 综合实践任务（Task）
+
+基于 ml4health 的 7 个阶段性实践任务，每个 Task 对应若干前置模块：
+
+| Task | 名称 | 前置模块 | 状态 |
+|------|------|---------|------|
+| 01 | [EDA + 统计分析报告](Task/Task%2001/) | 01 EDA, 02 统计检验 | 🔄 |
+| 02 | 特征工程流水线 | 03 预处理, 04 特征构造, 05 特征选择 | ⬜ |
+| 03 | 防泄漏审计与流水线重构 | 06 降维聚类, 07 数据泄漏 | ⬜ |
+| 04 | 端到端建模挑战赛 | 08 交叉验证, 09 建模对比, 10 不平衡, 11 校准DCA | ⬜ |
+| 05 | SHAP 可解释性报告 | 12-17 SHAP 全系列 | ⬜ |
+| 06 | 因果推断 + 预测全栈 | 18 DML 因果推断 | ⬜ |
+| 07 | ML Pipeline 可视化系统 | 全部 18 模块 | ⬜ |
 
 ---
 
