@@ -1,124 +1,94 @@
 # Medical Machine Learning Learning Portfolio
 
-> 南京医科大学 · 医学机器学习教程 (ml4health) 学习项目
-> Summer 2026 · 2026.7 — 2026.8
+> 南京医科大学 · 卓越工程师初阶学习 · Summer 2026
+>
+> 基于 [ml4health](https://github.com/IILab-Resource/ml4health) 教程，按知识域整理的学习笔记。
 
 ---
 
-## 项目简介
+## 学习进度
 
-本项目是基于南京医科大学 ml4health 教程的 **持续更新学习作品集 (Learning Portfolio)**。
+**Medical Machine Learning · Summer 2026**
 
-目标：通过 22 个模块的系统学习，掌握医学机器学习的完整工作流程，同时形成可展示的学习成长轨迹。
-
----
-
-## 总进度
-
-```
-Medical Machine Learning
-Summer 2026
-
-░░░░░░░░░░░░░░░░░░░░░░
-
-1 / 22 Modules
-
-预计完成时间：2026.7 —— 2026.8
-```
-
----
-
-## 22 个教学模块
+- 已完成：0 / 22 模块
+- 预计周期：2026.7 — 2026.8
 
 | # | 模块 | 英文名 | 阶段 | 状态 |
 |---|------|--------|------|------|
-| 01 | [探索性数据分析](modules/01_EDA/README.md) | Exploratory Data Analysis | 基础入门 | ✅ |
-| 02 | [统计检验](modules/02_Statistical_Tests/README.md) | Statistical Tests | 基础入门 | ⬜ |
-| 03 | [数据预处理](modules/03_Preprocessing/README.md) | Data Preprocessing | 特征工程 | ⬜ |
-| 04 | [特征构造](modules/04_Feature_Construction/README.md) | Feature Construction | 特征工程 | ⬜ |
-| 05 | [特征选择](modules/05_Feature_Selection/README.md) | Feature Selection | 特征工程 | ⬜ |
-| 06 | [降维与聚类](modules/06_Dimensionality_Reduction_Clustering/README.md) | Dimensionality Reduction & Clustering | 建模评估 | ⬜ |
-| 07 | [防数据泄漏](modules/07_Data_Leakage_Prevention/README.md) | Data Leakage Prevention | 建模评估 | ⬜ |
-| 08 | [交叉验证](modules/08_Cross_Validation/README.md) | Cross Validation | 建模评估 | ⬜ |
-| 09 | [建模对比](modules/09_Model_Comparison/README.md) | Model Comparison | 建模评估 | ⬜ |
-| 10 | [不平衡数据处理](modules/10_Imbalanced_Data/README.md) | Imbalanced Data Handling | 建模评估 | ⬜ |
-| 11 | [校准与决策曲线分析](modules/11_Calibration_DCA/README.md) | Calibration & DCA | 建模评估 | ⬜ |
-| 12 | [SHAP 概述](modules/12_SHAP_Overview/README.md) | SHAP Overview | 可解释性与因果 | ⬜ |
-| 13 | [SHAP 交互效应](modules/13_SHAP_Interaction/README.md) | SHAP Interaction Effects | 可解释性与因果 | ⬜ |
-| 14 | [SHAP 依赖图](modules/14_SHAP_Dependence/README.md) | SHAP Dependence Analysis | 可解释性与因果 | ⬜ |
-| 15 | [SHAP 聚类](modules/15_SHAP_Clustering/README.md) | SHAP Clustering | 可解释性与因果 | ⬜ |
-| 16 | [SHAP 决策路径](modules/16_SHAP_Decision_Path/README.md) | SHAP Decision Path | 可解释性与因果 | ⬜ |
-| 17 | [SHAP Bootstrap](modules/17_SHAP_Bootstrap/README.md) | SHAP Bootstrap Analysis | 可解释性与因果 | ⬜ |
-| 18 | [双重机器学习因果推断](modules/18_DML_Causal_Inference/README.md) | Double Machine Learning (DML) | 可解释性与因果 | ⬜ |
-| 19 | [影像组学特征提取](modules/19_Radiomics_Feature_Extraction/README.md) | Radiomics Feature Extraction | 综合案例 | ⬜ |
-| 20 | [影像组学ML流水线](modules/20_Radiomics_ML_Pipeline/README.md) | Radiomics ML Pipeline | 综合案例 | ⬜ |
-| 21 | [基因组学 TCGA 多分类](modules/21_TCGA_Multiclass/README.md) | Genomics TCGA Multiclass | 综合案例 | ⬜ |
-| 22 | [CGM 血糖回归](modules/22_CGM_Glucose_Regression/README.md) | CGM Glucose Regression | 综合案例 | ⬜ |
+| 01 | 探索性数据分析 | EDA | 基础入门 | ⬜ |
+| 02 | 统计检验 | Statistical Tests | 基础入门 | ⬜ |
+| 03 | 预处理与缺失值插补 | Preprocessing | 特征工程 | ⬜ |
+| 04 | 特征工程 | Feature Engineering | 特征工程 | ⬜ |
+| 05 | 特征选择 | Feature Selection | 特征工程 | ⬜ |
+| 06 | 降维与聚类 | Dim. Reduction & Clustering | 建模评估 | ⬜ |
+| 07 | 数据泄漏分析 | Data Leakage | 建模评估 | ⬜ |
+| 08 | 交叉验证 | Cross Validation | 建模评估 | ⬜ |
+| 09 | 建模对比 | Model Comparison | 建模评估 | ⬜ |
+| 10 | 类别不平衡处理 | Class Imbalance | 建模评估 | ⬜ |
+| 11 | 校准分析与DCA | Calibration & DCA | 建模评估 | ⬜ |
+| 12 | SHAP + LIME | Model Interpretability | 可解释性 | ⬜ |
+| 12b | 高级SHAP可视化 | Advanced SHAP Viz | 可解释性 | ⬜ |
+| 13 | SHAP交互效应 | SHAP Interaction | 可解释性 | ⬜ |
+| 14 | SHAP依赖图 | SHAP Dependence | 可解释性 | ⬜ |
+| 15 | SHAP聚类 | SHAP Clustering | 可解释性 | ⬜ |
+| 16 | SHAP决策路径 | SHAP Decision Path | 可解释性 | ⬜ |
+| 17 | SHAP Bootstrap | SHAP Stability | 可解释性 | ⬜ |
+| 18 | 双重机器学习 | Double ML (DML) | 因果推断 | ⬜ |
+| 19 | 影像组学特征提取 | Radiomics Features | 综合案例 | ⬜ |
+| 20 | 影像组学ML流水线 | Radiomics ML Pipeline | 综合案例 | ⬜ |
+| 21 | 基因组学ML流水线 | Genomics ML Pipeline | 综合案例 | ⬜ |
+| 22 | CGM血糖回归 | CGM Regression | 综合案例 | ⬜ |
 
 ---
 
-## 四阶段学习路径
-
-| 阶段 | 模块范围 | 核心内容 |
-|------|----------|----------|
-| 1. 基础入门 | 01 — 02 | EDA探索性分析 + 统计检验 |
-| 2. 特征工程 | 03 — 05 | 预处理 → 特征构造 → 特征选择 |
-| 3. 建模评估 | 06 — 11 | 降维聚类 → 防泄漏 → 交叉验证 → 建模对比 → 不平衡处理 → 校准DCA |
-| 4. 可解释性与因果 | 12 — 18 | SHAP全系列 + DML因果推断 |
-| 5. 综合案例 | 19 — 22 | 影像组学 / 基因组学 / CGM血糖回归 |
-
----
-
-## 仓库结构
+## 知识域导航
 
 ```
 medical-ml-learning/
-├── README.md              # 项目首页
-├── LEARNING_LOG.md        # 每日/每周学习日志
-├── resources.md           # 教程、论文、参考资料
-├── modules/
-│   ├── 01_EDA/
-│   │   ├── README.md      # 模块概述 + 学习目标
-│   │   ├── notes.md       # 个人学习笔记
-│   │   ├── practice.ipynb # 实践代码
-│   │   └── images/        # 运行结果截图
-│   ├── 02_Statistical_Tests/
-│   └── ...
-└── assets/
-    └── progress.svg       # 进度条可视化
+│
+├── Git/                    # Git 版本控制
+├── Python/                 # Python 数据科学工具
+├── Statistics/             # 统计方法
+├── Data-Processing/        # 数据预处理与特征工程
+├── Machine-Learning/       # 机器学习建模
+├── Model-Interpretability/ # 模型可解释性（SHAP/LIME/DCA）
+├── Causal-Inference/       # 因果推断
+├── Radiomics/              # 影像组学
+├── Genomics/               # 基因组学
+├── Paper-Reading/          # 论文阅读笔记
+└── resources.md            # 参考资料（教程、论文链接）
 ```
 
 ---
 
-## 每个模块的学习流程
+## 笔记规则
 
-1. **阅读教程** → 理解概念框架
-2. **写 notes.md** → 用自己的话记录理解（不抄教程）
-3. **敲 practice.ipynb** → 重新实现代码（不复制）
-4. **保存 images/** → 截图运行结果
-5. **写 Reflection** → 记录收获、踩坑、下一步
-6. **Git Commit** → `Finish ModuleXX XXX`
+- 每篇笔记对应一个**知识点**，不是日记
+- 写自己的理解，不抄教程
+- 包含：核心概念 → 代码要点 → 踩坑记录 → 可复用片段
+- 学完一个知识点就整理一篇，不赶频率
 
 ---
 
-## 与我的研究的联系
+## Commit Message 速查
 
-| 研究方向 | 相关模块 | 应用场景 |
-|----------|----------|----------|
-| EcMurJ 药物设计 | 03, 05, 09, 12-17 | 特征工程 + 建模 + SHAP解释 |
-| 长寿人群宏基因组 | 01, 02, 06, 18, 21 | EDA + 统计检验 + 降维聚类 + 因果推断 |
-| 菌落图像分析 | 06, 19, 20 | 降维聚类 + 影像组学流水线 |
-
----
-
-## 推荐环境
-
-- Anaconda (Python 3.10+)
-- VSCode + Jupyter 插件
-- Git for version control
+| 做了什么 | Commit Message |
+|----------|---------------|
+| 新建仓库 | `Initial commit` |
+| 新增笔记 | `Add <topic> notes` |
+| 更新笔记 | `Update <topic> notes` |
+| 新增代码 | `Add <topic> script` |
+| 上传图片 | `Add figures` |
+| 修复错误 | `Fix <description>` |
+| 更新文档 | `Update documentation` |
 
 ---
+
+## 相关仓库
+
+- [ml4health](https://github.com/IILab-Resource/ml4health) — 原始教程
+- [MurJ-Drug-Discovery](https://github.com/1xds/MurJ-Drug-Discovery) — 研究项目
 
 ## License
 
-MIT License - 本项目为个人学习作品集，教程内容版权归 ml4health 原作者所有。
+MIT
