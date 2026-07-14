@@ -101,7 +101,7 @@ medical-ml-learning/
 ## 相关仓库
 
 - [ml4health](https://github.com/IILab-Resource/ml4health) — 原始教程
-- [MurJ-Drug-Discovery](https://github.com/1xds/MurJ-Drug-Discovery) — 研究项目
+
 
 ## License
 
