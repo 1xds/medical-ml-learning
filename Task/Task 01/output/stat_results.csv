@@ -1,0 +1,27 @@
+﻿feature,type,method,p,effect,effect_value,magnitude,sig,bonf_pass
+Employment_Status,categorical,chi2,0.012980634581052359,Cramer's V,0.006,negligible,*,No
+Cholesterol_Level,categorical,chi2,0.13522027646773738,Cramer's V,0.0041,negligible,ns,No
+Income_Level,categorical,chi2,0.2159000957421135,Cramer's V,0.0036,negligible,ns,No
+CVD_Risk_Score,numeric,Mann-Whitney U,0.2267482287578768,Cohen's d,-0.0076,negligible,ns,No
+Obesity,categorical,chi2,0.2378668143026962,Cramer's V,0.0024,negligible,ns,No
+Rural_or_Urban,categorical,chi2,0.32722585232791107,Cramer's V,0.002,negligible,ns,No
+Stress_Level,categorical,chi2,0.35877678682167546,Cramer's V,0.0029,negligible,ns,No
+Smoking_Status,categorical,chi2,0.4973847228200189,Cramer's V,0.0014,negligible,ns,No
+TCM_Use,categorical,chi2,0.5178916085183202,Cramer's V,0.0013,negligible,ns,No
+Chronic_Kidney_Disease,categorical,chi2,0.5235114528342768,Cramer's V,0.0013,negligible,ns,No
+Diet_Score,categorical,chi2,0.5335048892839729,Cramer's V,0.0023,negligible,ns,No
+Gender,categorical,chi2,0.5337205391297336,Cramer's V,0.0013,negligible,ns,No
+Age,numeric,Mann-Whitney U,0.5550952119466674,Cohen's d,-0.0037,negligible,ns,No
+Hospital_Availability,categorical,chi2,0.6536335178624001,Cramer's V,0.0019,negligible,ns,No
+Province,categorical,chi2,0.6619730210351218,Cramer's V,0.0046,negligible,ns,No
+Physical_Activity,categorical,chi2,0.668267182605414,Cramer's V,0.0018,negligible,ns,No
+Education_Level,categorical,chi2,0.6703209564030852,Cramer's V,0.0021,negligible,ns,No
+Previous_Heart_Attack,categorical,chi2,0.6868100613669863,Cramer's V,0.0008,negligible,ns,No
+Region,categorical,chi2,0.7090161905567697,Cramer's V,0.003,negligible,ns,No
+Hypertension,categorical,chi2,0.7214539330894574,Cramer's V,0.0007,negligible,ns,No
+Blood_Pressure,numeric,Mann-Whitney U,0.7924981437162598,Cohen's d,0.0016,negligible,ns,No
+Alcohol_Consumption,categorical,chi2,0.8158176524672811,Cramer's V,0.0005,negligible,ns,No
+Air_Pollution_Exposure,categorical,chi2,0.8567675570546612,Cramer's V,0.0011,negligible,ns,No
+Healthcare_Access,categorical,chi2,0.9605562620883927,Cramer's V,0.0006,negligible,ns,No
+Diabetes,categorical,chi2,0.997899432319085,Cramer's V,0.0,negligible,ns,No
+Family_History_CVD,categorical,chi2,1.0,Cramer's V,0.0,negligible,ns,No

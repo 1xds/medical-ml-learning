@@ -21,12 +21,12 @@ medical-ml-learning/
 │   └── 22_CGM_Glucose_Regression/
 │       └── notes.md
 └── Task/             # 综合实践任务
-    ├── Task 01/      # Node 1: EDA + 统计分析
+    ├── Task 01/      
     │   ├── heart_attack_analysis.ipynb
     │   └── heart_attack_china.csv
-    ├── Task 02/      # Node 2: 特征工程流水线
+    ├── Task 02/      
     ├── ...
-    └── Task 07/      # Node 7: ML Pipeline 可视化系统
+    └── Task 07/     
 ```
 
 ## 学习进度
@@ -34,8 +34,8 @@ medical-ml-learning/
 | # | 模块 | 状态 |
 |---|------|------|
 | 01 | [探索性数据分析 (EDA)](modules/01_EDA/notes.md) | ✅ |
-| 02 | [统计检验](modules/02_Statistical_Tests/notes.md) | ⬜ |
-| 03 | [数据预处理与缺失值插补](modules/03_Preprocessing/notes.md) | ⬜ |
+| 02 | [统计检验](modules/02_Statistical_Tests/notes.md) | ✅ |
+| 03 | [数据预处理与缺失值插补](modules/03_Preprocessing/notes.md) | 🔄 |
 | 04 | [特征工程](modules/04_Feature_Construction/notes.md) | ⬜ |
 | 05 | [特征选择](modules/05_Feature_Selection/notes.md) | ⬜ |
 | 06 | [降维与聚类](modules/06_Dimensionality_Reduction_Clustering/notes.md) | ⬜ |
@@ -64,7 +64,7 @@ medical-ml-learning/
 
 | Task | 名称 | 前置模块 | 状态 |
 |------|------|---------|------|
-| 01 | [EDA + 统计分析报告](Task/Task%2001/) | 01 EDA, 02 统计检验 | 🔄 |
+| 01 | [EDA + 统计分析报告](Task/Task%2001/) | 01 EDA, 02 统计检验 | ✅ |
 | 02 | 特征工程流水线 | 03 预处理, 04 特征构造, 05 特征选择 | ⬜ |
 | 03 | 防泄漏审计与流水线重构 | 06 降维聚类, 07 数据泄漏 | ⬜ |
 | 04 | 端到端建模挑战赛 | 08 交叉验证, 09 建模对比, 10 不平衡, 11 校准DCA | ⬜ |
