@@ -245,14 +245,6 @@ ax.plot([0, 1], [0, 1], 'k--', label='Perfect Calibration')
 
 - **前置模块**：Module 02（EDA 与统计检验）发现 30/38 列缺失、所有特征均显著但效应量差异大，为本模块提供了"需要插补，且需关注效应量"的动机
 - **后续模块**：Module 04（特征工程）中构造的新特征（如 Age_Sq、Is_Child）也面临缺失值问题，插补策略的选择直接影响构造特征的质量
-- **与研究工作的联系**：在 EcMurJ 虚拟筛选研究中，分子描述符（如 LogP、分子量）存在计算失败导致的缺失值。当 236K 化合物库中某描述符因 RDKit 计算异常而缺失时，需根据缺失机制选择策略：若因分子过大导致（MNAR），简单删除可能产生偏倚；若为随机缺失（MAR），MICE 或 KNN 插补可保留更多候选化合物。宏基因组研究中，物种丰度矩阵的高缺失率（大量零值代表真实不表达 + 技术性缺失）需要区分"零膨胀"与"真正缺失"，这与本模块的 MCAR/MAR/MNAR 判断框架直接相关。
+
 
 ---
-
-## 参考资料
-
-- 教程原文：`ml4health-main/jupyter/03_preprocessing_imputation.ipynb`
-- 讲义：`ml4health-main/lectures/03_preprocessing_imputation_teaching_doc.md`
-- Rubin, D. B. (1987). *Multiple Imputation for Nonresponse in Surveys*. Wiley.
-- van Buuren, S. (2018). *Flexible Imputation of Missing Data*. CRC Press.
-- Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. *JMLR*, 12, 2825-2830.

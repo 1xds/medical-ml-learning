@@ -311,13 +311,6 @@ $$P(\text{至少一次第 I 类错误}) = 1 - (1 - \alpha)^m$$
   - Module 03 缺失值处理 — 根据统计检验效应量排序，优先修复高效应量特征的缺失值
   - Module 05 特征选择 — 统计检验的效应量排序可作为特征选择的 baseline，后续与模型重要性交叉验证
   - Module 09 建模对比 — 比较"仅统计显著特征"与"全特征"的模型性能差异
-- **与研究工作的联系**：在 EcMurJ 虚拟筛选项目中，可对化合物描述符（如分子量、LogP、氢键供体数）执行类似的双样本检验（活性 vs 非活性），用效应量排序辅助化合物库筛选
 
 ---
 
-## 参考资料
-
-- 教程原文：`ml4health-main/jupyter/02_statistical_analysis.ipynb`
-- 讲义：`ml4health-main/lectures/02_statistical_analysis_teaching_doc.md`
-- Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum. — 效应量阈值标准（0.2/0.5/0.8）的原始出处
-- Benjamini, Y. & Hochberg, Y. (1995). Controlling the False Discovery Rate. *JRSS-B*, 57(1), 289-300. — FDR 校正的经典论文

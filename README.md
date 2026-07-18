@@ -51,11 +51,11 @@ Integrated Medical ML Pipeline
 |---|--------|--------|
 | 01 | [EDA](notes/01_EDA.md) | ✅ |
 | 02 | [Statistical Tests](notes/02_Statistical_Tests.md) | ✅ |
-| 03 | [Preprocessing](notes/03_Preprocessing.md) | 🔄 |
-| 04 | [Feature Construction](notes/04_Feature_Construction.md) | ⬜ |
-| 05 | [Feature Selection](notes/05_Feature_Selection.md) | ⬜ |
-| 06 | [Dimensionality Reduction & Clustering](notes/06_Dimensionality_Reduction_Clustering.md) | ⬜ |
-| 07 | [Data Leakage Prevention](notes/07_Data_Leakage_Prevention.md) | ⬜ |
+| 03 | [Preprocessing](notes/03_Preprocessing.md) | ✅ |
+| 04 | [Feature Construction](notes/04_Feature_Construction.md) | ✅ |
+| 05 | [Feature Selection](notes/05_Feature_Selection.md) | ✅ |
+| 06 | [Dimensionality Reduction & Clustering](notes/06_Dimensionality_Reduction_Clustering.md) | ✅ |
+| 07 | [Data Leakage Prevention](notes/07_Data_Leakage_Prevention.md) | ✅ |
 | 08 | [Cross Validation](notes/08_Cross_Validation.md) | ⬜ |
 | 09 | [Model Comparison](notes/09_Model_Comparison.md) | ⬜ |
 | 10 | [Imbalanced Data](notes/10_Imbalanced_Data.md) | ⬜ |
@@ -81,12 +81,7 @@ Hands-on tasks mapped to prerequisite modules:
 | Task | Name | Prerequisites | Status |
 |------|------|--------------|--------|
 | 01 | [EDA + Statistical Report](Task/Task%2001/) | 01 EDA, 02 Statistical Tests | ✅ |
-| 02 | Feature Engineering Pipeline | 03 Preprocessing, 04 Feature Construction, 05 Feature Selection | ⬜ |
-| 03 | Leakage Audit & Pipeline Refactor | 06 Dim. Reduction, 07 Data Leakage | ⬜ |
-| 04 | End-to-End Modeling Challenge | 08–11 Cross Validation, Model Comparison, Imbalanced Data, Calibration & DCA | ⬜ |
-| 05 | SHAP Interpretability Report | 12–17 SHAP Series | ⬜ |
-| 06 | Causal Inference + Prediction Stack | 18 DML Causal Inference | ⬜ |
-| 07 | ML Pipeline Visualization System | All 22 modules | ⬜ |
+| 02 | Feature Engineering Pipeline | 03 Preprocessing, 04 Feature Construction, 05 Feature Selection | 🔄 |
 
 ---
 

@@ -313,7 +313,7 @@ sorted_df = summary_df.dropna(subset=['AUC_Std']).sort_values('AUC_Std')
 
 - **前置模块**：Module 07（数据泄漏）— 交叉验证本身不防止泄漏，预处理必须在每折的训练折上独立完成，与 Pipeline 的使用直接衔接。
 - **后续模块**：Module 09（建模对比）— 不同模型的对比需要基于可靠的 CV 评估；Module 10（类别不平衡处理）— Stratified K-Fold 是处理不平衡数据评估的基础；Module 11（校准分析）— CV 得到的预测概率可用于校准曲线绘制。
-- **与研究工作的联系**：在 EcMurJ 虚拟筛选中，化合物活性/非活性的二分类评估需要使用 Stratified K-Fold 确保评估可靠性；在宏基因组研究中，样本量有限时 Nested CV 可避免模型选择的调参偏倚。对于需要向审稿人证明模型泛化能力的场景，Repeated Stratified K-Fold + Nested CV 是最稳健的评估策略。
+
 
 ---
 
