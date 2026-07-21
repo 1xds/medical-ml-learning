@@ -242,7 +242,7 @@ for fold_idx, (tr_idx, te_idx) in enumerate(cv.split(X_cv_full_smote, y_cv_full_
 
 - **前置模块**：Module 07（数据泄漏）— SMOTE 泄漏是数据泄漏在不平衡数据场景下的特殊表现形式；Module 08（交叉验证）— CV 中的重采样策略直接依赖 Pipeline 思想；Module 09（建模对比）— class_weight='balanced' 是处理轻度不平衡的基础手段，本模块深入探讨严重不平衡场景。
 - **后续模块**：Module 11（校准分析）— 重采样可能影响概率校准质量，需联合分析；Module 12（可解释性）— 重采样后的模型解释需注意合成样本的影响。
-- **与研究工作的联系**：在 EcMurJ 虚拟筛选中，236K 化合物库中活性化合物通常占比极低（IR 可能 > 100:1），属于极严重不平衡场景，需考虑 SMOTEENN 或异常检测思路；在长寿人群肠道宏基因组研究中，长寿表型（如百岁老人）属于罕见类别，SMOTE + Repeated Stratified CV 是稳健的评估策略。使用 imblearn.Pipeline 将 SMOTE 封装在 CV 流程中是防止泄漏的标准做法。
+
 
 ---
 

@@ -56,11 +56,11 @@ Integrated Medical ML Pipeline
 | 05 | [Feature Selection](notes/05_Feature_Selection.md) | ✅ |
 | 06 | [Dimensionality Reduction & Clustering](notes/06_Dimensionality_Reduction_Clustering.md) | ✅ |
 | 07 | [Data Leakage Prevention](notes/07_Data_Leakage_Prevention.md) | ✅ |
-| 08 | [Cross Validation](notes/08_Cross_Validation.md) | ⬜ |
-| 09 | [Model Comparison](notes/09_Model_Comparison.md) | ⬜ |
-| 10 | [Imbalanced Data](notes/10_Imbalanced_Data.md) | ⬜ |
-| 11 | [Calibration & DCA](notes/11_Calibration_DCA.md) | ⬜ |
-| 12 | [SHAP Overview](notes/12_SHAP_Overview.md) | ⬜ |
+| 08 | [Cross Validation](notes/08_Cross_Validation.md) | ✅ |
+| 09 | [Model Comparison](notes/09_Model_Comparison.md) | ✅ |
+| 10 | [Imbalanced Data](notes/10_Imbalanced_Data.md) | ✅ |
+| 11 | [Calibration & DCA](notes/11_Calibration_DCA.md) | ✅ |
+| 12 | [SHAP Overview](notes/12_SHAP_Overview.md) | 🔄 |
 | 13 | [SHAP Interaction](notes/13_SHAP_Interaction.md) | ⬜ |
 | 14 | [SHAP Dependence](notes/14_SHAP_Dependence.md) | ⬜ |
 | 15 | [SHAP Clustering](notes/15_SHAP_Clustering.md) | ⬜ |
@@ -81,7 +81,7 @@ Hands-on tasks mapped to prerequisite modules:
 | Task | Name | Prerequisites | Status |
 |------|------|--------------|--------|
 | 01 | [EDA + Statistical Report](Task/Task%2001/) | 01 EDA, 02 Statistical Tests | ✅ |
-| 02 | Feature Engineering Pipeline | 03 Preprocessing, 04 Feature Construction, 05 Feature Selection | 🔄 |
+| 02 | [基于乳腺超声影像组学的良恶性分类实验] |   | 🔄 |
 
 ---
 

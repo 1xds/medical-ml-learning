@@ -263,7 +263,6 @@ LightGBM 性能最优但训练耗时 64.64s，是 Random Forest（1.83s）的 35
 
 - **前置模块**：Module 08（交叉验证）— 本模块统一使用 Stratified 5-Fold CV，是 Module 08 结论的直接应用；Module 07（数据泄漏）— Pipeline 确保每折独立预处理。
 - **后续模块**：Module 10（类别不平衡处理）— 本模块使用 class_weight='balanced' 作为基础手段，Module 10 将深入探讨 SMOTE 等高级方法；Module 11（校准分析）— Brier Score 初步反映校准质量，Module 11 将系统分析校准曲线；Module 12（可解释性）— 本模块的树模型和线性模型都将是 SHAP/LIME 解释的对象。
-- **与研究工作的联系**：在 EcMurJ 虚拟筛选中，化合物活性预测属于典型表格数据分类问题，XGBoost/LightGBM 可作为基线模型；在宏基因组研究中，样本特征异构性强，Random Forest 的鲁棒性优势值得关注。选择模型时需考虑下游需求：若需向生物学家解释预测逻辑，Logistic Regression + SHAP 可能优于黑箱集成模型。
 
 ---
 
